@@ -10,7 +10,7 @@ public class App {
                 digitosNum++;
                 n /= 10;
             }
-            System.out.println("El número introducido, " + num + ", tiene " + digitosNum + " dígitos.");
+            System.out.println("El número introducido, " + num + ", tiene " + digitosNum + " dígito/s.");
         } catch (NumberFormatException ex) {
             System.out.println("Introduce un número valido por favor.");
         } catch (Exception e) {
